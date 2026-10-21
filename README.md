@@ -1,5 +1,8 @@
 # AFAC2026 自动化实验 Agent
 
+[![CI](https://github.com/Alwayshere-su/afac2026-auto-experiment-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/Alwayshere-su/afac2026-auto-experiment-agent/actions/workflows/ci.yml)
+[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+
 ## 项目概览
 
 - 赛题与成绩：AFAC2026（阿里天池）自动化实验 Agent；A 榜综合 **0.63906**（54/360），B 榜综合 **0.32299**（第 27 名），决赛获挑战组**三等奖**。任务细节见下方“比赛背景”。

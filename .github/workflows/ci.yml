@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # 单元测试只依赖标准库，不需要安装 torch / PyG 等重型依赖
+      - name: Compile
+        run: |
+          python -m compileall -q main.py pi_agent utils workspace/code
+
+      - name: Test
+        run: python -m unittest discover -s tests -v
