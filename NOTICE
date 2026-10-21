@@ -1,0 +1,9 @@
+# NOTICE
+
+本仓库中由作者编写的源代码采用 Apache License 2.0，见 [LICENSE](LICENSE)。
+
+`workspace/references/` 中的方法参考资料可能包含第三方内容；其版权归各自权利人所有。
+如果计划再分发这些材料，请先确认原始授权。
+
+Python 依赖（PyTorch、PyTorch Geometric、DashScope 等）不随本仓库分发，
+分别遵循其各自的开源许可证。

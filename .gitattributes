@@ -1,0 +1,7 @@
+# 文本文件统一使用 LF，避免不同平台换行差异
+* text=auto eol=lf
+
+# 二进制文件不做换行转换
+*.pt binary
+*.npz binary
+*.npy binary

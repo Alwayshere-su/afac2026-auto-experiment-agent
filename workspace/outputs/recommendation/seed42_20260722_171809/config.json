@@ -1,0 +1,19 @@
+{
+  "lr": 0.0015,
+  "wd": 0.0001,
+  "dropout": 0.4,
+  "embed_dim": 64,
+  "hidden_dim": 128,
+  "seq_length": 50,
+  "label_smoothing": 0.05,
+  "num_layers": 1,
+  "batch_size": 256,
+  "epochs": 30,
+  "patience": 5,
+  "seed": 42,
+  "best_val_ndcg": 0.12420357018709183,
+  "holdout_ndcg": 0.12533502280712128,
+  "holdout_hr": 0.23649999499320984,
+  "total_params": 2849155,
+  "train_time": 56.87658905982971
+}

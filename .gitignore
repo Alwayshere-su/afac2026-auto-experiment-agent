@@ -1,0 +1,24 @@
+# API Key
+.api_key
+
+# 官方数据：体积大、不可公开分发
+workspace/data/
+
+# 比赛/路演文档与内置 Git Bash：只保留在本地，不随代码仓库分发
+docs/
+vendor/bash/
+
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# 系统/编辑器杂项
+.DS_Store
+Thumbs.db
+
+# 运行中间产物
+workspace/outputs/**/*.tmp
+workspace/outputs/**/_best_*.json
